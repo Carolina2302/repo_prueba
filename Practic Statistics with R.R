@@ -15,6 +15,4 @@ inference(y = weight, x = habit, data = nc, statistic = "mean", type = "ci", nul
 inference(y = weight, x = habit, data = nc, statistic = "mean", type = "ci", 
           method = "theoretical", order = c("smoker","nonsmoker"))
 
-max()
-
 predict(object = nc, newdata = newd2, interval = 'confidence', level=0.99)
